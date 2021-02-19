@@ -1,0 +1,24 @@
+{
+  "name": "Webpack",
+  "version": "1.0.0",
+  "description": "Initial config to use webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mFdezH/Webpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mFdezH/Webpack/issues"
+  },
+  "homepage": "https://github.com/mFdezH/Webpack#readme",
+  "devDependencies": {
+    "webpack": "^5.23.0",
+    "webpack-cli": "^4.5.0"
+  }
+}
