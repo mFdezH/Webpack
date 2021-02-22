@@ -1,6 +1,8 @@
 # Webpack
 Initial config to use webpack in your project
 
+If you want to download this project, just type "npm i" for install all the dependencies and plugins installed for this inicial configuration. But if you want to create a project by your own just follow the next steps.
+
 # STEP ONE
 
 Create a directory and initialize it with: 		npm init -y 
@@ -12,3 +14,12 @@ Install webpack dependency locally with:	npm i --save-dev webpack webpack-cli
 
 You will see a new directory called node_modules and a file called package-lock.json. And the file package.json will be updated with the new installed dependencies.
 
+# STEP TWO
+
+Create a directory called "src" and create a file in called index.js.
+Create a directory called "dist" and create a file in called index.html.
+
+My code needs lodash so, I install the dependency locally with:	npm i --save lodash
+
+If everything goes correct, with the command "npx webpack" you could see a new file in "dist" called main.js and main.js.LICENSE.txt.
+If you open index.html in the browser you will see "Hello webpack".
