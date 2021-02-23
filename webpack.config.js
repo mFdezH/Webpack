@@ -1,4 +1,6 @@
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin'); // step 4 html
+const CopyPlugin = require("copy-webpack-plugin"); // step 4 copy
 
 module.exports = {
 	
@@ -21,4 +23,16 @@ module.exports = {
 	devServer: { //The `webpack-dev-server` provides you with a simple web server and the ability to use live reloading.
 		contentBase: path.join(__dirname, 'dist'),
 	},
+
+	plugins: [
+		new HtmlWebpackPlugin({ //step 4 html
+			template: './src/main.html'
+		}),
+		new CopyPlugin({	// step 4 copy
+			patterns: [
+			  { from: "images", to: "assets" },
+			  // You can add the number of folders you want using the same structure
+			],
+		  }),
+	],
 };
