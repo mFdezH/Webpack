@@ -66,7 +66,9 @@ To install it: ``npm install copy-webpack-plugin --save-dev`` and add to `webpac
 
 For example, I'm going to copy a directory called `images`. When I build the project, the directory will be created or updated in `dist`.
 
-# **# STEP FIVE** lit-element and typescript
+
+
+**# STEP FIVE** Lit-element and typescript
 
 To install lit-element: ``npm i lit-element``. 
 I`ve create a simple component using litelement.
