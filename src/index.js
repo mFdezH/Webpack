@@ -1,5 +1,6 @@
-
 import _ from 'lodash';
+import './hello_litelement.js';
+
 
  function component() {
    const element = document.createElement('div');

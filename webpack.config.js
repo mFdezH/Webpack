@@ -31,8 +31,22 @@ module.exports = {
 		new CopyPlugin({	// step 4 copy
 			patterns: [
 			  { from: "images", to: "assets" },
-			  // You can add the number of folders you want using the same structure
+			  // You can add the number of folders you want using the same structure { from: "folder", to: "dest" },
 			],
 		  }),
 	],
+
+	//step 5 ts
+	module: {
+		rules: [
+		  {
+			test: `/\.tsx?$/`,
+			use: 'ts-loader',
+			exclude: '/node_modules/',
+		  },
+		],
+	  },
+	  resolve: {
+		extensions: ['.tsx', '.ts', '.js'],
+	  },
 };
