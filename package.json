@@ -20,6 +20,14 @@
   },
   "homepage": "https://github.com/mFdezH/Webpack#readme",
   "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/plugin-proposal-decorators": "^7.13.5",
+    "@babel/plugin-transform-runtime": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/preset-typescript": "^7.13.0",
+    "@babel/runtime": "^7.13.10",
+    "babel-loader": "^8.2.2",
     "copy-webpack-plugin": "^7.0.0",
     "html-webpack-plugin": "^5.2.0",
     "ts-loader": "^8.0.17",
@@ -29,7 +37,13 @@
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
+    "core-js": "^3.9.1",
     "lit-element": "^2.4.0",
-    "lodash": "^4.17.20"
+    "lodash": "^4.17.20",
+    "@types/lodash": "^4.14.168",
+    "@webcomponents/custom-elements": "^1.4.3",
+    "@webcomponents/webcomponentsjs": "^2.5.0",
+    "serve": "^11.3.2",
+    "url-polyfill": "^1.1.12"
   }
 }

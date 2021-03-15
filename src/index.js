@@ -1,5 +1,6 @@
 import _ from 'lodash';
-import './hello_litelement.js';
+//import './hello_litelement.js';
+import './useless-button.js'
 
 
  function component() {
